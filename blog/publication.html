@@ -18,7 +18,7 @@ xmlhttp.onload = function() {
   text += "</table>"    
   document.getElementById("demo").innerHTML = text;
 }
-xmlhttp.open("POST", "https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=FQaI7T0AAAAJ");
+xmlhttp.open("GET", "https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=FQaI7T0AAAAJ");
 xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 xmlhttp.send("x=" + dbParam);
 </script>
