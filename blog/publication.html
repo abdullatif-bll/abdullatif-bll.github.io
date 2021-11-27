@@ -2,12 +2,12 @@
 <html>
 <body>
 
-<h2>Make a table based on JSON data.</h2>
+<h2>Publikasi Google Schoolar</h2>
 
 <p id="demo"></p>
 
 <script>
-const dbParam = JSON.stringify({table:"customers",limit:20});
+const dbParam = JSON.stringify({table:"publications",limit:20});
 const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
   const myObj = JSON.parse(this.responseText);
